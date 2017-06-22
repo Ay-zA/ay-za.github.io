@@ -1,0 +1,77 @@
+.quote
+{
+  padding: 5em;
+  background: url('/assets/images/footer.jpg') center center no-repeat;
+  background-size: cover;
+  color: #eee;
+  text-shadow: 0 1px 1px rgba(80, 80, 80, 1);
+}
+
+blockquote
+{
+  margin: 0;
+  font-size: 2em;
+  text-align: center;
+}
+
+.footer
+{
+  align-items: center;
+  background: #333;
+  color: #eee;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+
+  ul
+  {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 2em;
+    padding: 0;
+    align-items: center;
+
+    &.left
+    {
+      flex: 3;
+    }
+
+    &.right
+    {
+      flex: 2;
+    }
+
+    li
+    {
+      // display: table;
+      //
+      // a
+      // {
+      //   display: table-cell;
+      //   vertical-align: middle;
+      // }
+    }
+  }
+
+  .social
+  {
+    a
+    {
+      margin: 0 5px;
+    }
+
+    svg
+    {
+      fill: #eee;
+      width: 32px;
+      height: 32px;
+    }
+  }
+}
+
+.enamad
+{
+  margin: 1em;
+  text-align: center;
+}

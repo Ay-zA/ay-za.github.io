@@ -1,0 +1,71 @@
+:host
+{
+  position: fixed;
+  // background: rgba(23, 21, 25, .26);
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  color: #eee;
+}
+
+.header
+{
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  height: 95px;
+  transition: 500ms height, 500ms padding;
+  color: #333;
+  padding: 0 4em;
+
+  .brand
+  {
+    background-image: url('/assets/images/logo.svg');
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 85px;
+    height: 50px;
+    background-size: cover;
+    transition: 200ms width, 200ms height;
+  }
+
+
+  &.expanded
+  {
+    // color: #eee;
+    height: 65px;
+    background: #fff;
+    // box-shadow: 0 0 1px 1px #777;
+    border-bottom: 3px solid #fbb03c;
+
+    .brand
+    {
+      width: 62px;
+      height: 37px;
+      background-size: cover;
+    }
+  }
+}
+
+
+.navbar
+{
+  flex: 1;
+  text-align: right;
+  padding-right: 1em;
+
+  a
+  {
+    margin: 0 1em;
+    font-size: 1em;
+  }
+}
+
+button
+{
+  height: 40px;
+  width: 150px;
+  border-radius: 25px
+  ;
+}

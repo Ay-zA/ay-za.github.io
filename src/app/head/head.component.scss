@@ -1,0 +1,55 @@
+:host
+{
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone
+{
+  z-index: 1;
+  position: relative;
+
+  img
+  {
+    height: 600px;
+  }
+
+  .ui
+  {
+    background: #333;
+    position: absolute;
+    height: 454px;
+    width: 257px;
+    top: 77px;
+    left: 21px;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  svg
+  {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+#iphone ,
+#iphone-outline
+{
+  width: 200px;
+  height: 200px;
+}
+
+circle
+{
+  stroke: #fbb03c;
+  stroke-width: 3;
+  fill: #eee;
+  r: 45%;
+  cx: 50%;
+  cy: 50%;
+}

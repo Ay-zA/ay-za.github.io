@@ -1,0 +1,48 @@
+:host
+{
+  flex: 1;
+  margin: 1em;
+  width: 250px;
+  min-width: 250px;
+  max-width: 250px;
+  color: #333;
+}
+
+header
+{
+  background: #fff;
+  text-align: center;
+
+  .title
+  {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+}
+
+article
+{
+  background: #ddd;
+}
+
+svg
+{
+  width: 100%;
+  fill: #333;
+}
+
+.card
+{
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.about
+{
+  padding: 0 1em;
+}
+
+.green
+{
+  transform: scaleX(-1);
+}

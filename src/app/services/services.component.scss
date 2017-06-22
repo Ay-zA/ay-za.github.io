@@ -1,0 +1,21 @@
+:host
+{
+  display: flex;
+  background: #333;
+  justify-content: center;
+  padding: 1em 0;
+}
+
+h1
+{
+  color: #eee;
+  text-align: center;
+  margin: 1em;
+}
+
+.services
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
