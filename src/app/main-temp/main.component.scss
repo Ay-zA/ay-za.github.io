@@ -1,16 +1,14 @@
 $accent: #fbb03c;
-:host {
-  display: flex;
-  height: 100%;
-}
 
-section
+:host
 {
   display: flex;
   position: relative;
+  height: 100%;
   background: #707070;
-  flex-flow: row nowrap;
-  align-items: stretch;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
   color: #eee;
   // background-image: url('/assets/images/map.jpg');
   background-position: center center;

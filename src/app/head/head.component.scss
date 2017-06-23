@@ -4,16 +4,18 @@ section
   height: 700px;
   align-items: center;
   justify-content: center;
+  background: url('/assets/images/main.jpg');
 }
 
 .phone-container
 {
   z-index: 1;
-  position: relative;
   display: inline-block;
   min-width: 320px;
   max-width: 320px;
   width: 320px;
+  position: absolute;
+  left: 20%;
 
   .ui
   {
@@ -29,6 +31,14 @@ section
     height: 0;
     animation: open 500ms linear 4s;
     animation-fill-mode: forwards;
+
+    svg
+    {
+      fill: #eee;
+      width: 0;
+      // animation: pop 500ms ease-in-out 4.5s;
+      animation: pop 500ms ease-in-out 4.5s, clickme 2s 5s infinite;
+    }
   }
 
   #phone-outline
@@ -49,15 +59,52 @@ section
   }
 }
 
+.ribon
+{
+  width: 100%;
+  position: absolute;
+  background: #fbb03c;
+}
 
-.about {
-  box-shadow: 0 1px 1px #ddd;
+.about
+{
+  position: relative;
+  box-sizing: content-box;
   padding: 2em;
-  width: 270px;
+  min-width: 250px;
+  width: 250px;
   text-align: right;
+  left: 25%;
+  padding-left: 320px;
 
-  .text {
+  .text
+  {
+    direction: rtl;
+    text-align: justify;
+  }
 
+  .action
+  {
+    margin-top: 1em;
+
+    button
+    {
+      color: #eee;
+      background: #333;
+      width: 45%;
+      height: 32px;
+      border-radius: 16px;
+
+      &:hover
+      {
+        color: #333;
+      }
+
+      &:first-child
+      {
+        margin-right: 8%;
+      }
+    }
   }
 }
 
@@ -87,16 +134,56 @@ section
   }
 }
 
-@keyframes open {
-  0% {
+@keyframes open
+{
+  0%
+  {
     height: 0x;
   }
 
-  70% {
+  70%
+  {
     height: 316px;
   }
 
-  100% {
+  100%
+  {
     height: 306px;
+  }
+}
+
+@keyframes pop
+{
+  0%
+  {
+    width: 0;
+  }
+
+  70%
+  {
+    width: 74px;
+  }
+
+  100%
+  {
+    width: 64px;
+  }
+}
+
+@keyframes clickme
+{
+  0%
+  {
+    width: 64px;
+  }
+
+  50%
+  {
+    width: 70px;
+  }
+
+  100%
+  {
+    width: 64px;
   }
 }

@@ -29,6 +29,7 @@ svg
 {
   width: 100%;
   fill: #333;
+  height: 100px;
 }
 
 .card
@@ -39,7 +40,11 @@ svg
 
 .about
 {
-  padding: 0 1em;
+  padding: 1em 3em;
+
+  p {
+    margin: 0;
+  }
 }
 
 .green

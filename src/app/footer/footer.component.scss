@@ -2,9 +2,16 @@
 {
   padding: 5em;
   background: url('/assets/images/footer.jpg') center center no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   color: #eee;
   text-shadow: 0 1px 1px rgba(80, 80, 80, 1);
+
+  .fa-quote-right {
+    top: -16px;
+    position: relative;
+    font-size: 13pt;
+  }
 }
 
 blockquote
@@ -16,12 +23,13 @@ blockquote
 
 .footer
 {
+  display: flex;
+  flex-flow: column;
   align-items: center;
   background: #333;
   color: #eee;
-  display: flex;
-  height: 100px;
   justify-content: space-between;
+  padding: 1em;
 
   ul
   {
@@ -29,7 +37,6 @@ blockquote
     justify-content: space-between;
     list-style: none;
     margin: 0 2em;
-    padding: 0;
     align-items: center;
 
     &.left
@@ -44,34 +51,39 @@ blockquote
 
     li
     {
-      // display: table;
-      //
-      // a
-      // {
-      //   display: table-cell;
-      //   vertical-align: middle;
-      // }
-    }
-  }
-
-  .social
-  {
-    a
-    {
-      margin: 0 5px;
+      margin: 20px;
     }
 
-    svg
+    &.social
     {
-      fill: #eee;
-      width: 32px;
-      height: 32px;
+      li
+      {
+        margin: 1em 10px;
+      }
+      svg
+      {
+        fill: #eee;
+        width: 32px;
+        height: 32px;
+        transition: 500ms fill;
+
+        &:hover {
+          fill: #fbb03c;
+        }
+      }
     }
   }
 }
 
 .enamad
 {
-  margin: 1em;
+  background: #eee;
+  padding: 1em;
   text-align: center;
+}
+
+.copy-right
+{
+  color: #bababa;
+  margin-top: 2em;
 }

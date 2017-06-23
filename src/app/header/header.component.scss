@@ -16,24 +16,19 @@
   align-items: center;
   height: 95px;
   transition: 500ms height, 500ms padding;
-  color: #333;
   padding: 0 4em;
+  color: #eee;
 
   .brand
   {
-    background-image: url('/assets/images/logo.svg');
-    background-repeat: no-repeat;
-    display: inline-block;
-    width: 85px;
-    height: 50px;
-    background-size: cover;
-    transition: 200ms width, 200ms height;
+    font-size: 28px;
+    transition: 200ms font-size;
   }
 
 
   &.expanded
   {
-    // color: #eee;
+    color: #333;
     height: 65px;
     background: #fff;
     // box-shadow: 0 0 1px 1px #777;
@@ -41,9 +36,7 @@
 
     .brand
     {
-      width: 62px;
-      height: 37px;
-      background-size: cover;
+      font-size: 24px;
     }
   }
 }

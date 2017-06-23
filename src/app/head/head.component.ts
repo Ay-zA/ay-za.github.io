@@ -1,5 +1,4 @@
 import { Component, OnInit, AfterViewInit, ElementRef } from '@angular/core';
-import { TimelineMax } from "gsap";
 
 @Component({
   selector: 'geno-head',
@@ -15,10 +14,5 @@ export class HeadComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit() {
-    let tl = new TimelineMax({ repeat: -1 });
-    let iphoneOutline = this.elRef.nativeElement.querySelector('#phone-outline');
-    iphoneOutline.addEventListener("load", function() {
-      let svgDocs = iphoneOutline.contentDocument.querySelectorAll('svg .a');
-    }, false);
   }
 }

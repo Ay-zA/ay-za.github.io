@@ -1,15 +1,13 @@
-<img [@slider]="info.state" class="background" src="assets/images/{{info.image}}" alt="">
-<div class="overlay" *ngIf="info.state === 'green'">
-  <div class="dirty"></div>
-  <div class="clean"></div>
-</div>
-<div class="info">
-  <div [@bgBorder]="info.state" class="header">
-    <h1 [@fadein]="info.state">{{info.title}}</h1>
-    <div [@reveal]="info.state" class="reveal"></div>
+<section *ngFor="let info of infos">
+  <img class="background" src="assets/images/{{info.image}}" alt="">
+  <div class="info">
+    <div class="header">
+      <h1>{{info.title}}</h1>
+      <div class="reveal"></div>
+    </div>
+    <div class="sub-header">
+      <h2>{{info.subtitle}}</h2>
+      <div class="reveal"></div>
+    </div>
   </div>
-  <div [@subBgBorder]="info.state" class="sub-header">
-    <h2 [@subfadein]="info.state">{{info.subtitle}}</h2>
-    <div [@subreveal]="info.state" class="reveal"></div>
-  </div>
-</div>
+</section>
