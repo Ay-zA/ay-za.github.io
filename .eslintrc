@@ -1,15 +1,15 @@
 {
   "env": {
     "browser": true,
-    "node": true
+    "node": true,
+    "es6": true
   },
   "globals": {
     "angular": true,
-    "jasmine": true,
-    "System": ture
+    "jasmine": true
   },
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 8,
     "sourceType": "module",
     "ecmaFeatures": {
         "jsx": true
@@ -25,7 +25,7 @@
     }],
     "no-cond-assign": [1,"except-parens"],
     "no-console": 0,
-    "no-constant-condition": 1,
+    "no-constant-condition": 0,
     "no-control-regex": 1,
     "no-debugger": 1,
     "no-dupe-args": 2,
@@ -144,7 +144,7 @@
     "newline-after-var": [0,"always"],
     "no-array-constructor": 1,
     "no-continue": 1,
-    "no-inline-comments": 1,
+    "no-inline-comments": 0,
     "no-lonely-if": 1,
     "no-mixed-spaces-and-tabs": [1,"smart-tabs"],
     "no-multiple-empty-lines": [1,{"max":1}],
@@ -156,7 +156,7 @@
     "no-underscore-dangle": 1,
     "no-unneeded-ternary": 1,
     "object-curly-spacing": [1,"always",{"arraysInObjects":true,"objectsInObjects":true}],
-    # "one-var": [1,"Error parsing input"],
+    "one-var": [1,"never"],
     "operator-assignment": [1,"always"],
     "operator-linebreak": [1,"after"],
     "padded-blocks": [1,"never"],
@@ -174,16 +174,16 @@
     "space-unary-ops": [1,{"words":false,"nonwords":false}],
     "spaced-comment": [1,"always",{}],
     "wrap-regex": 1,
-    "arrow-parens": [1,"as-needed"],
+    "arrow-parens": [0,"as-needed"],
     "arrow-spacing": [1,{"before":true,"after":true}],
     "constructor-super": 1,
-    "generator-star-spacing": [1,"both"],
+    "generator-star-spacing": [1,"after"],
     "no-class-assign": 1,
     "no-const-assign": 1,
     "no-this-before-super": 1,
     "no-var": 1,
     "object-shorthand": [1,"always"],
-    "prefer-const": 1,
+    "prefer-const": 0,
     "prefer-spread": 1,
     "prefer-reflect": 1,
     "require-yield": 1,
