@@ -66,7 +66,7 @@ section
   position: absolute;
   background: #fbb03c;
   left: -200%;
-  animation: 1s ribon cubic-bezier(.82,.15,.88,.31) 5s;
+  animation: 1s ribon cubic-bezier(.82,.15,.50,.31);// 5s;
   animation-fill-mode: forwards;
 
   &::after
@@ -88,11 +88,14 @@ section
   position: relative;
   box-sizing: content-box;
   padding: 2em;
-  min-width: 250px;
-  width: 250px;
+  min-width: 275px;
+  width: 275px;
   text-align: right;
   left: 25%;
   padding-left: 320px;
+  opacity: 0;
+  animation: fadein 1s linear ;//6s;
+  animation-fill-mode: forwards;
 
   .text
   {
@@ -106,15 +109,20 @@ section
 
     button
     {
+      vertical-align: middle;
       color: #eee;
       background: #333;
       width: 45%;
-      height: 32px;
+      height: 36px;
       border-radius: 16px;
 
       &:hover ,
       &:focus
       {
+        svg
+        {
+          fill: #333;
+        }
         color: #333;
         border-color: #333;
 
@@ -127,6 +135,12 @@ section
       &:first-child
       {
         margin-right: 8%;
+      }
+
+      .fa-pull-left
+      {
+        position: relative;
+        top: 3px;
       }
     }
   }
@@ -216,13 +230,47 @@ section
     left: -200%;
   }
 
-  99%
+  50%
   {
-    left: 0%;
+    left: -100%;
   }
 
-  100% {
-    left: 0%;
+  99%
+  {
+    left: 0;
+    overflow: visible;
+  }
+
+  100%
+  {
+    left: 0;
     overflow: hidden;
+  }
+}
+
+.bazaar
+{
+  height: 100%;
+  width: 100%;
+  top: 4px;
+  position: relative;
+  fill: #eee;
+}
+
+.google-play
+{
+  padding-left: 40px;
+
+  svg {
+    top: 5px;
+    left: 14px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    fill: #eee;
+  }
+
+  &:hover svg{
+    fill: #333;
   }
 }

@@ -15,7 +15,13 @@ export class MainComponent implements OnInit {
       state: 'lux'
     },
     {
-      title: 'دسترسی در همه نقاط شهر',
+      title: 'شهر پاک با سرویس های سبز',
+      subtitle: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      image: 'green.jpg',
+      state: 'green'
+    },
+    {
+      title: 'دسترسی 24 ساعته',
       subtitle: 'با استفاده از سرویس های متنوع ما در سطح شهر هر مکان میتوانید دسترسی ۲۴ ساعته داشته باشید',
       image: 'map.jpg',
       state: 'map'

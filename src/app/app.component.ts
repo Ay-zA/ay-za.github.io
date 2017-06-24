@@ -10,8 +10,8 @@ export class AppComponent {
 
   @HostListener('window:scroll', ['$event'])
   onScroll(event) {
-    let number = event.srcElement.activeElement.scrollTop;
-
+    let number = event.srcElement.body.scrollTop;
+    // console.log(number);
     if (number === 0) {
       this.isHeaderExpand = false;
     } else {

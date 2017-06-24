@@ -55,10 +55,19 @@
   }
 }
 
-button
+.download
 {
   height: 40px;
   width: 150px;
-  border-radius: 25px
-  ;
+  border-radius: 25px;
+  padding-left: 25px;
+
+  svg {
+    fill: #333;
+    top: 4px;
+    left: 18px;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+  }
 }

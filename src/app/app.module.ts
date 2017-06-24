@@ -14,6 +14,7 @@ import { HudComponent } from './hud/hud.component';
 import { RoadmapComponent } from './roadmap/roadmap.component';
 import { HeadComponent } from './head/head.component';
 import { SpaceComponent } from './space/space.component';
+import { JoinUsComponent } from './join-us/join-us.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { SpaceComponent } from './space/space.component';
     HudComponent,
     RoadmapComponent,
     HeadComponent,
-    SpaceComponent
+    SpaceComponent,
+    JoinUsComponent
   ],
   imports: [
     BrowserModule,
