@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 327.79 663.24">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #d49333;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <title>iphone-outline</title>
+  <!-- <symbol id="out-line" viewBox="0 0 327.79 663.24"> -->
+  <g id="out-line">
+    <path class="a" d="M276.43,0H49.38A47.3,47.3,0,0,0,2.08,47.3V614.93a47.3,47.3,0,0,0,47.3,47.3H276.43a47.3,47.3,0,0,0,47.3-47.3V47.3A47.3,47.3,0,0,0,276.43,0Zm40.35,611.46A42.57,42.57,0,0,1,274.21,654H51.89A42.57,42.57,0,0,1,9.32,611.46V48.56A42.57,42.57,0,0,1,51.89,6H274.21a42.57,42.57,0,0,1,42.57,42.57Z" transform="translate(0.5 0.5)"/>
+    <rect class="a" x="7.17" y="5.26" width="311.78" height="652.43" rx="43.99" ry="43.99"/>
+    <rect class="a" x="22.27" y="83.69" width="281.94" height="497.23"/>
+    <path class="a" d="M161.87,592.15a26.7,26.7,0,1,0,26.7,26.7A26.7,26.7,0,0,0,161.87,592.15Zm0,50.06a23.36,23.36,0,1,1,23.36-23.36A23.36,23.36,0,0,1,161.87,642.21Z" transform="translate(0.5 0.5)"/>
+    <circle class="a" cx="163.2" cy="22.78" r="4.17"/>
+    <circle class="a" cx="113.14" cy="42.8" r="5.84"/>
+    <path class="a" d="M185.09,44.81H140.25a3.34,3.34,0,0,1-3.34-3.34h0a3.34,3.34,0,0,1,3.34-3.34h44.85a3.34,3.34,0,0,1,3.34,3.34h0A3.34,3.34,0,0,1,185.09,44.81Z" transform="translate(0.5 0.5)"/>
+    <rect class="a" x="322.56" y="142.09" width="4.73" height="46.72" rx="1.42" ry="1.42"/>
+    <rect class="a" x="0.78" y="83.69" width="4.73" height="28.37" rx="1.42" ry="1.42"/>
+    <rect class="a" x="0.5" y="142.09" width="4.73" height="48.39" rx="1.42" ry="1.42"/>
+    <rect class="a" x="0.78" y="202.17" width="4.73" height="48.39" rx="1.42" ry="1.42"/>
+    <rect class="a" x="2.58" y="51.98" width="4.6" height="9.91"/>
+    <rect class="a" x="318.88" y="51.98" width="5.36" height="9.91"/>
+    <rect class="a" x="2.2" y="602.77" width="4.97" height="9.91"/>
+    <rect class="a" x="318.9" y="602.66" width="5.33" height="9.91"/>
+  </g>
+</svg>

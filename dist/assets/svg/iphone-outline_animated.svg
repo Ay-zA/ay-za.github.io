@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 327.79 663.24">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #d49333;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <title>iphone-outline</title>
+  <g>
+    <path class="a GuzrauJA_0" d="M276.43,0H49.38A47.3,47.3,0,0,0,2.08,47.3V614.93a47.3,47.3,0,0,0,47.3,47.3H276.43a47.3,47.3,0,0,0,47.3-47.3V47.3A47.3,47.3,0,0,0,276.43,0Zm40.35,611.46A42.57,42.57,0,0,1,274.21,654H51.89A42.57,42.57,0,0,1,9.32,611.46V48.56A42.57,42.57,0,0,1,51.89,6H274.21a42.57,42.57,0,0,1,42.57,42.57Z" transform="translate(0.5 0.5)"></path>
+    <path class="a GuzrauJA_2" width="281.94" height="497.23" d="M22.27 83.69 L304.21 83.69 L304.21 580.9200000000001 L22.27 580.9200000000001 Z"></path>
+    <path class="a GuzrauJA_3" d="M161.87,592.15a26.7,26.7,0,1,0,26.7,26.7A26.7,26.7,0,0,0,161.87,592.15Zm0,50.06a23.36,23.36,0,1,1,23.36-23.36A23.36,23.36,0,0,1,161.87,642.21Z" transform="translate(0.5 0.5)"></path>
+    <path class="a GuzrauJA_4" d="M159.03,22.78A4.17,4.17 0,1,1 167.36999999999998,22.78A4.17,4.17 0,1,1 159.03,22.78"></path>
+    <path class="a GuzrauJA_5" d="M107.3,42.8A5.84,5.84 0,1,1 118.98,42.8A5.84,5.84 0,1,1 107.3,42.8"></path>
+    <path class="a GuzrauJA_6" d="M185.09,44.81H140.25a3.34,3.34,0,0,1-3.34-3.34h0a3.34,3.34,0,0,1,3.34-3.34h44.85a3.34,3.34,0,0,1,3.34,3.34h0A3.34,3.34,0,0,1,185.09,44.81Z" transform="translate(0.5 0.5)"></path>
+    <path class="a GuzrauJA_7" width="4.73" height="46.72" d="M322.56 142.09 L327.29 142.09 L327.29 188.81 L322.56 188.81 Z"></path>
+    <path class="a GuzrauJA_8" width="4.73" height="28.37" d="M0.78 83.69 L5.510000000000001 83.69 L5.510000000000001 112.06 L0.78 112.06 Z"></path>
+    <path class="a GuzrauJA_9" width="4.73" height="48.39" d="M0.5 142.09 L5.23 142.09 L5.23 190.48000000000002 L0.5 190.48000000000002 Z"></path>
+    <path class="a GuzrauJA_10" width="4.73" height="48.39" d="M0.78 202.17 L5.510000000000001 202.17 L5.510000000000001 250.56 L0.78 250.56 Z"></path>
+    <path class="a GuzrauJA_11" width="4.6" height="9.91" d="M2.58 51.98 L7.18 51.98 L7.18 61.89 L2.58 61.89 Z"></path>
+    <path class="a GuzrauJA_12" width="5.36" height="9.91" d="M318.88 51.98 L324.24 51.98 L324.24 61.89 L318.88 61.89 Z"></path>
+    <path class="a GuzrauJA_13" width="4.97" height="9.91" d="M2.2 602.77 L7.17 602.77 L7.17 612.68 L2.2 612.68 Z"></path>
+    <path class="a GuzrauJA_14" width="5.33" height="9.91" d="M318.9 602.66 L324.22999999999996 602.66 L324.22999999999996 612.5699999999999 L318.9 612.5699999999999 Z"></path>
+  </g>
+  <style>
+    .GuzrauJA_0{stroke-dasharray:3725 3727;stroke-dashoffset:3726;animation:GuzrauJA_draw 2000ms ease-in 0ms forwards;}
+    .GuzrauJA_1{stroke-dasharray:1929 1931;stroke-dashoffset:1930;animation:GuzrauJA_draw 2000ms ease-in 71ms forwards;}
+    .GuzrauJA_2{stroke-dasharray:1559 1561;stroke-dashoffset:1560;animation:GuzrauJA_draw 2000ms ease-in 142ms forwards;}
+    .GuzrauJA_3{stroke-dasharray:315 317;stroke-dashoffset:316;animation:GuzrauJA_draw 2000ms ease-in 214ms forwards;}
+    .GuzrauJA_4{stroke-dasharray:27 29;stroke-dashoffset:28;animation:GuzrauJA_draw 2000ms ease-in 285ms forwards;}
+    .GuzrauJA_5{stroke-dasharray:37 39;stroke-dashoffset:38;animation:GuzrauJA_draw 2000ms ease-in 357ms forwards;}
+    .GuzrauJA_6{stroke-dasharray:111 113;stroke-dashoffset:112;animation:GuzrauJA_draw 2000ms ease-in 428ms forwards;}
+    .GuzrauJA_7{stroke-dasharray:103 105;stroke-dashoffset:104;animation:GuzrauJA_draw 2000ms ease-in 500ms forwards;}
+    .GuzrauJA_8{stroke-dasharray:67 69;stroke-dashoffset:68;animation:GuzrauJA_draw 2000ms ease-in 571ms forwards;}
+    .GuzrauJA_9{stroke-dasharray:107 109;stroke-dashoffset:108;animation:GuzrauJA_draw 2000ms ease-in 642ms forwards;}
+    .GuzrauJA_10{stroke-dasharray:107 109;stroke-dashoffset:108;animation:GuzrauJA_draw 2000ms ease-in 714ms forwards;}
+    .GuzrauJA_11{stroke-dasharray:30 32;stroke-dashoffset:31;animation:GuzrauJA_draw 2000ms ease-in 785ms forwards;}
+    .GuzrauJA_12{stroke-dasharray:31 33;stroke-dashoffset:32;animation:GuzrauJA_draw 2000ms ease-in 857ms forwards;}
+    .GuzrauJA_13{stroke-dasharray:30 32;stroke-dashoffset:31;animation:GuzrauJA_draw 2000ms ease-in 928ms forwards;}
+    .GuzrauJA_14{stroke-dasharray:31 33;stroke-dashoffset:32;animation:GuzrauJA_draw 2000ms ease-in 1000ms forwards;}
+    @keyframes GuzrauJA_draw{100%{stroke-dashoffset:0;}}@keyframes GuzrauJA_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}
+  </style>
+</svg>
