@@ -66,7 +66,7 @@ section
   position: absolute;
   background: #fbb03c;
   left: -200%;
-  animation: 1s ribon cubic-bezier(.82,.15,.50,.31);// 5s;
+  animation: 1s ribon cubic-bezier(.82,.15,.50,.31) 4s;
   animation-fill-mode: forwards;
 
   &::after
@@ -94,7 +94,7 @@ section
   left: 25%;
   padding-left: 320px;
   opacity: 0;
-  animation: fadein 1s linear ;//6s;
+  animation: fadein 1s linear 5s;
   animation-fill-mode: forwards;
 
   .text

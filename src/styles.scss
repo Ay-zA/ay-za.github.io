@@ -2,8 +2,8 @@
 {
   font-family: Yekan;
   src: url('assets/fonts/BYekan.eot'), /* IE9 Compat Modes */
-       url('assets/fonts/BYekan.woff') format('woff'), /* Pretty Modern Browsers */
-       url('assets/fonts/BYekan.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('assets/fonts/BYekan.woff') format('woff'), /* Pretty Modern Browsers */
+  url('assets/fonts/BYekan.ttf') format('truetype'),; /* Safari, Android, iOS */
 }
 
 @font-face
@@ -121,5 +121,32 @@ button
       transform: rotate3d(0, 0, 1, 0deg);
       transition-timing-function: cubic-bezier(.2, 1, .3, 1);
     }
+  }
+}
+
+.quote-icon
+{
+  width: 24px;
+  height: 24px;
+  top: -11px;
+  position: relative;
+  left: 6px;
+}
+
+.section-title
+{
+  border-bottom: 1px solid #dee0df;
+  color: #333;
+  text-align: center;
+  margin: 0 0 5em;
+
+  h1 {
+    font-family: Yekan;
+    font-weight: bold;
+    font-size: 22px;
+    top: 15px;
+    position: relative;
+    display: inline-block;
+    padding: 0 1em;
   }
 }
