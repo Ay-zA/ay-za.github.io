@@ -13,6 +13,7 @@ import { CardComponent } from './services/card/card.component';
 import { HudComponent } from './hud/hud.component';
 import { RoadmapComponent } from './roadmap/roadmap.component';
 import { HeadComponent } from './head/head.component';
+import { SpaceComponent } from './space/space.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { HeadComponent } from './head/head.component';
     CardComponent,
     HudComponent,
     RoadmapComponent,
-    HeadComponent
+    HeadComponent,
+    SpaceComponent
   ],
   imports: [
     BrowserModule,

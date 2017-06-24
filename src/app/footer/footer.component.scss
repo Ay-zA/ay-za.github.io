@@ -7,7 +7,8 @@
   color: #eee;
   text-shadow: 0 1px 1px rgba(80, 80, 80, 1);
 
-  .fa-quote-right {
+  .fa-quote-right
+  {
     top: -16px;
     position: relative;
     font-size: 13pt;
@@ -67,7 +68,8 @@ blockquote
         height: 32px;
         transition: 500ms fill;
 
-        &:hover {
+        &:hover
+        {
           fill: #fbb03c;
         }
       }
@@ -86,4 +88,5 @@ blockquote
 {
   color: #bababa;
   margin-top: 2em;
+  font-size: small;
 }

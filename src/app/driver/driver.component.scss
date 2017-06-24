@@ -1,9 +1,31 @@
 :host
 {
   display: block;
-  padding: 8em 10%;
   text-align: center;
   background: #eee;
   background: url(/assets/images/city.jpg) center center;
   background-size: cover;
+  padding: 2em 10% 6em;
+}
+
+.title
+{
+  border-bottom: 1px solid #dee0df;
+  color: #333;
+  text-align: center;
+  font-size: 13px;
+  margin: 0 0 5em;
+
+  h1 {
+    top: 15px;
+    position: relative;
+    background: #f7faff;
+    display: inline-block;
+    padding: 0 1em;
+  }
+}
+
+geno-roadmap
+{
+  padding: 8em 0;
 }
