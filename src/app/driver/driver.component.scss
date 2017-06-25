@@ -1,18 +1,19 @@
-:host
-{
+@import 'variables';
+
+:host {
   display: block;
   text-align: center;
-  background: #eee;
-  background: url(/assets/images/city.jpg) center center;
+  background-color: $light;
+  background: url('/assets/images/city.jpg') center center;
   background-size: cover;
   padding: 2em 10% 6em;
+  overflow: hidden;
 }
 
 .section-title h1 {
-  background: #f7faff;
+  background: $driver-bg;
 }
 
-geno-roadmap
-{
+geno-roadmap {
   padding: 8em 0;
 }

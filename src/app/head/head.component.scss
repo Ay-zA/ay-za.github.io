@@ -25,9 +25,9 @@ section
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 175px;
-    bottom: 79px;
-    left: 70px;
+    width: 183px;
+    bottom: 56px;
+    left: 68px;
     height: 0;
     animation: open 500ms linear 4s;
     animation-fill-mode: forwards;
@@ -146,6 +146,34 @@ section
   }
 }
 
+.bazaar
+{
+  height: 100%;
+  width: 100%;
+  top: 4px;
+  position: relative;
+  fill: #eee;
+}
+
+.google-play
+{
+  padding-left: 40px;
+
+  svg {
+    top: 5px;
+    left: 14px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    fill: #eee;
+  }
+
+  &:hover svg{
+    fill: #333;
+  }
+}
+
+
 @keyframes fadein
 {
   from
@@ -181,12 +209,12 @@ section
 
   70%
   {
-    height: 316px;
+    height: 333px;
   }
 
   100%
   {
-    height: 306px;
+    height: 323px;
   }
 }
 
@@ -245,32 +273,5 @@ section
   {
     left: 0;
     overflow: hidden;
-  }
-}
-
-.bazaar
-{
-  height: 100%;
-  width: 100%;
-  top: 4px;
-  position: relative;
-  fill: #eee;
-}
-
-.google-play
-{
-  padding-left: 40px;
-
-  svg {
-    top: 5px;
-    left: 14px;
-    width: 24px;
-    height: 24px;
-    position: absolute;
-    fill: #eee;
-  }
-
-  &:hover svg{
-    fill: #333;
   }
 }

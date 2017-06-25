@@ -34,7 +34,7 @@ linters:
     enabled: true
 
   Comment:
-    enabled: true
+    enabled: false
     style: silent
 
   DebugStatement:
@@ -206,7 +206,7 @@ linters:
 
   SpaceBeforeBrace:
     enabled: true
-    style: new_line
+    style: one_space
     allow_single_line_padding: false
 
   SpaceBetweenParens:

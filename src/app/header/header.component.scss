@@ -1,23 +1,20 @@
 :host
 {
   position: fixed;
-  // background: rgba(23, 21, 25, .26);
   top: 0;
   left: 0;
   width: 100%;
   z-index: 100;
-  color: #eee;
 }
 
 .header
 {
-  background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  height: 95px;
-  transition: 500ms height, 500ms padding;
-  padding: 0 4em;
   color: #eee;
+  height: 95px;
+  padding: 0 4em;
+  transition: 500ms height, 500ms padding;
 
   .brand
   {
@@ -31,7 +28,6 @@
     color: #333;
     height: 65px;
     background: #fff;
-    // box-shadow: 0 0 1px 1px #777;
     border-bottom: 3px solid #fbb03c;
 
     .brand
@@ -62,12 +58,52 @@
   border-radius: 25px;
   padding-left: 25px;
 
-  svg {
+  svg
+  {
     fill: #333;
     top: 4px;
     left: 18px;
     width: 28px;
     height: 28px;
     position: absolute;
+  }
+}
+
+@media only screen and (max-width : 768px)
+{
+  .header
+  {
+    color: #333;
+    height: 50px;
+    background: #fff;
+    border-bottom: 3px solid #fbb03c;
+    padding: 0 2em;
+
+    .brand
+    {
+      font-size: 24px;
+    }
+  }
+
+  .navbar
+  {
+    text-align: center;
+    font-size: .9em;
+  }
+
+
+  .download
+  {
+    height: 33px;
+    width: 105px;
+    padding-left: 26px;
+
+    svg
+    {
+      top: 5px;
+      left: 11px;
+      width: 22px;
+      height: 22px;
+    }
   }
 }

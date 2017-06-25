@@ -1,33 +1,13 @@
 .quote
 {
-  padding: 5em;
   background: url('/assets/images/footer.jpg') center center no-repeat;
   background-attachment: fixed;
-  background-size: cover;
   color: #eee;
-  text-shadow: 0 1px 1px rgba(80, 80, 80, 1);
-  text-align: center;
-
-  .fa-quote-right
-  {
-    top: -16px;
-    position: relative;
-    font-size: 13pt;
-  }
 
   a {
     display: inline-block;
     margin-top: 1em;
   }
-}
-
-blockquote
-{
-  font-family: Yekan;
-  font-weight: bold;
-  margin: 0;
-  font-size: 2.5em;
-  text-align: center;
 }
 
 .quote-icon {
